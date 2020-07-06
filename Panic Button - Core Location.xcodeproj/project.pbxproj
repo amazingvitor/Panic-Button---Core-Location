@@ -13,6 +13,7 @@
 		7B559C6924B1F43B00E37C53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B559C6824B1F43B00E37C53 /* Assets.xcassets */; };
 		7B559C6C24B1F43B00E37C53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B559C6B24B1F43B00E37C53 /* Preview Assets.xcassets */; };
 		7B559C6F24B1F43B00E37C53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B559C6D24B1F43B00E37C53 /* LaunchScreen.storyboard */; };
+		7B559C7724B1FBE600E37C53 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B559C7624B1FBE600E37C53 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7B559C6B24B1F43B00E37C53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7B559C6E24B1F43B00E37C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B559C7024B1F43B00E37C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B559C7624B1FBE600E37C53 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7B559C6224B1F43A00E37C53 /* AppDelegate.swift */,
 				7B559C6424B1F43A00E37C53 /* SceneDelegate.swift */,
 				7B559C6624B1F43A00E37C53 /* ContentView.swift */,
+				7B559C7624B1FBE600E37C53 /* LocationManager.swift */,
 				7B559C6824B1F43B00E37C53 /* Assets.xcassets */,
 				7B559C6D24B1F43B00E37C53 /* LaunchScreen.storyboard */,
 				7B559C7024B1F43B00E37C53 /* Info.plist */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B559C7724B1FBE600E37C53 /* LocationManager.swift in Sources */,
 				7B559C6324B1F43A00E37C53 /* AppDelegate.swift in Sources */,
 				7B559C6524B1F43A00E37C53 /* SceneDelegate.swift in Sources */,
 				7B559C6724B1F43A00E37C53 /* ContentView.swift in Sources */,
